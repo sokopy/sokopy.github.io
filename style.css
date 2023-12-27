@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("./img/cf.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.ttl{
+    text-align: center;
+    margin-top: 10%;
+    font-size: xx-large;
+}
+.underline{
+    text-align: center;
+}
+.btnMenu{
+    display: grid;
+    text-align: center;
+    grid-gap: 0.5%;
+    padding-inline: 30%;
+    grid-template-columns: repeat(3);
+    grid-auto-rows: minmax(5px, auto);
+}
+.btnMenu>a{
+    font-size: larger;
+    margin: 1%;
+    padding: 4%;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+}
+.btnMenu>a:hover{
+    cursor:pointer;
+    transition-duration:300ms;
+    background-color: black;
+    color: white;
+}
+.paragraph{
+    margin-inline: 15%;
+    margin-top: 2.5%;
+    font-size: x-large;
+    text-align: justify;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius:10px;
+}
